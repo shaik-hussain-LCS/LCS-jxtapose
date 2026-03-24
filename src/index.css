@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+	font-family: "poppins";
+} */
+
+.font-condensed  {
+ 	font-family: "Bricolage Grotesque", serif;	
+}
+@font-face {
+	font-family: "Arapey";
+	src: url("./fonts/Arapey-Italic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alice";
+	src: url('./fonts/Alice-Regular.ttf')format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+:root {
+	--animate-duration: 1000ms;
+	--animate-delay: 0.9s;
+}
+
+.hide::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
