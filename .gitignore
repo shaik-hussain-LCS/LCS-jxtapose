@@ -9,5 +9,6 @@ dist
 .terraform.tfstate
 .terraform.tfstate.backup
 .terraformrc
-terraform.rc    
-.terraform.loct.hcl
+terraform.rc
+.terraform.lock.hcl
+terraform.lock.hcl
