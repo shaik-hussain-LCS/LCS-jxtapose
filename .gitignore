@@ -10,3 +10,4 @@ dist
 .terraform.tfstate.backup
 .terraformrc
 terraform.rc    
+.terraform.loct.hcl
